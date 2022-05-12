@@ -1,0 +1,21 @@
+Standard input (stdin - 0) = data provided to a command/program/function; by default, keyboard
+Standard output (stdout - 1) = data produced by the successful execution of a command/program/function; by default, screen
+Standard error (stderr - 2) = data produced by the failed execution of a command/program/function; by default, screen
+
+Custom file descriptors can be referenced using redirection syntax (> or >>) and any number above 2
+
+Redirections
+
+
+> redirects output from a command to some destination (usage: echo "Hello, world" > hello.txt)
+
+>> does the same as >, but will append rather than overwrite data (usage: echo "more data for the file" >> hello.txt)
+
+< takes the second operand and uses it as input to the first operand
+
+
+Piping
+
+| chains or automatically redirects output from the first operand to the second operand as input
+
+

@@ -1,0 +1,23 @@
+ls - list directory contents
+cd - change directory
+pwd - print working directory
+man - open a manual for a given command
+ps - list running processes
+clear - clear console output
+echo - print to standard output
+mkdir - create a directory
+touch - create a file
+cat - concatenate the contents of a file to the standard output
+rm - remove a file or directory
+cp - copy a file or directory
+mv - move or rename a file
+chmod - modify file permissions
+more - shows the contents of the file, pausing when it fills the screen
+less - is similar to more, but with more features. It shows the contents of the file, pausing when it fills the screen (less is faster than more on large files)
+history - shows the shell command history
+grep - used for searching data using regular expressions
+head - used to print out X number of lines from the beginning of some file (-n to change X, X = 10 by default)
+tail - used to print out X number of lines from the end of some file (-n to change X, X = 10 by default)
+tar - used to create archive files (can optionally compress files using an algo like GZip)
+curl - used to communicate with a remote server using some communication protocol (e.g. HTTP, FTP, etc.) 
+nano - a command-line based text editor

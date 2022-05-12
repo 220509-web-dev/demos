@@ -1,0 +1,35 @@
+drwxrwxrwx
+
+d = directory
+r = read
+w = write
+x = execute
+
+d rwx     rwx     rwx
+  |       |       |
+  owner   group   all users
+  
+-----------------------
+
+Using binary references to set file permissions:
+
+r = 4
+w = 2
+x = 1
+
+0 = no permissions
+1 = only execute
+2 = only write
+3 = execute and write
+4 = only read
+5 = execute and read
+6 = read and write
+7 = read, write, and execute
+
+----------------------
+
+Shorthand permissions (not an all inclusive list)
+
+chmod +x <file-name> (grants execute permissions to all user levels)
+chmod +r <file-name> (grants read permissions to all user levels)
+chmod -r <file-name> (removes read permissions to all user levels)

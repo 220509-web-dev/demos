@@ -1,0 +1,57 @@
+ 1272  cat doc.txt 
+ 1273  echo < cat doc.txt
+ 1274  echo < $(cat doc.txt)
+ 1287  cat register.sh 
+ 1289  cat request.json 
+ 1291  cat register.sh 
+ 1295  cat error.data 
+ 1296  cat response.json 
+ 1301  cat error.data 
+ 1302  cat response.json 
+ 1305  cat request.json | register.sh
+ 1306  cat request.json | sh register.sh
+ 1308  cat response.json 
+ 1309  cat error.data 
+ 1310  sh register.sh $(cat request.json)
+ 1312  cat response.json 
+ 1315  sh register.sh $(cat request.json)
+ 1316  cat response.json 
+ 1319  cat response.json 
+ 1320  cat error.data 
+ 1322  cat error.data 
+ 1359  cat catalina.sh
+ 1360  where catalina.sh 
+ 1361  which catalina.sh 
+ 1362  cat /usr/lib/tomcat/bin/catalina.sh
+ 1377  cat the-adventures-of-tom-sawyer.txt 
+ 1403  catalina.sh run
+ 1422  cat over10.sh 
+ 1424  cat over10.sh 
+ 1427  cat /boot/vmlinuz > /dev/dsp
+ 1428  sudo cat /boot/vmlinuz > /dev/dsp
+ 1429  sudo cat /boot/vmlinuz > sudo /dev/dsp
+ 1453  cat /dev/tcp/
+ 1478  cat doc.txt 
+ 1485  cat test1.mv.db 
+ 1498  cat .bashrc
+ 1524  which catalina.sh
+ 1580  cat innov8dev-site-key.pub 
+ 1756  cat tsg_user_credentials.csv 
+ 1830  cat keys/tsg-root.pem 
+ 1857  cat green-day.txt 
+ 1878  cat green-day.md
+ 1886  cp -R my-music duplicated-music
+ 1890  tar -cf compressed-music duplicated-music/
+ 1893  tar -czf compressed-music duplicated-music/
+ 1894  tar -cf not-as-compressed-music duplicated-music/
+ 1901  rm -R duplicated-music/
+ 1903  rm -R duplicated-music/
+ 1979  cat blink-182.txt 
+ 1982  cat blink-182.txt 
+ 1993  cat error.log 
+ 1997  cat ./my-music/rock/punk/blink-182.txt 
+ 1999  cat ./my-music/rock/punk/blink-182.txt 
+ 2001  history | grep cat
+ 2005  history > grep cat
+ 2006  history | grep cat
+ 2007  history | grep cat > cat_history.txt
