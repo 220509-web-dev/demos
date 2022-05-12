@@ -21,3 +21,4 @@ tail - used to print out X number of lines from the end of some file (-n to chan
 tar - used to create archive files (can optionally compress files using an algo like GZip)
 curl - used to communicate with a remote server using some communication protocol (e.g. HTTP, FTP, etc.) 
 nano - a command-line based text editor
+wget - a program that retrieves content from web servers
