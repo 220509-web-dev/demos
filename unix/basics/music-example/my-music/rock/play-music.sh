@@ -1,0 +1,1 @@
+echo "Now playing music"
