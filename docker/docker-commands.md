@@ -17,8 +17,8 @@ These commands make up the most basic workflow you can expect to use when using 
 - Run a Docker image as a container that is detached from the current terminal: `docker run -d <IMAGE_NAME>`
 - Starting a stopped Docker container: `docker start <CONTAINER_NAME>`
 - Stopping a running Docker container (can be restarted): `docker stop <CONTAINER_NAME>`
-- Move files from the host machine to a running Docker container: `docker cp <file-on-host> <CONTAINER_NAME>:<destination-in-container>`
-- Move files from a running Docker container to the host machine: `docker cp <CONTAINER_NAME>:<file-in-container> <destination-on-host>`
+- Move files from host machine to running Docker container: `docker cp <file-on-host> <CONTAINER_NAME>:<destination-in-container>`
+- Move files from running Docker container to host machine: `docker cp <CONTAINER_NAME>:<file-in-container> <destination-on-host>`
 
 ## See what's going on
 
