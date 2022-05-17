@@ -32,11 +32,11 @@ These commands are useful to give you an idea of what your Docker engine is curr
 
 These commands are useful for removing locally stored data (stopped containers, old images, volumes, etc.). 
 
-Remove a Docker image: `docker rmi <IMAGE_NAME>`
-Remove a stopped Docker container: `docker rm <CONTAINER_NAME>`
-Remove all stopped Docker containers: `docker container prune`
-Remove all images: `docker rmi $(docker images -a -q)`
-Remove everything saved locally: `docker system prune`
+- Remove a Docker image: `docker rmi <IMAGE_NAME>`
+- Remove a stopped Docker container: `docker rm <CONTAINER_NAME>`
+- Remove all stopped Docker containers: `docker container prune`
+- Remove all images: `docker rmi $(docker images -a -q)`
+- Remove everything saved locally: `docker system prune`
 
 ## Using Docker to run a database
 
@@ -45,5 +45,4 @@ These commands are specific to the situation of using Docker to run a container 
 - Connect to the shell of a running Docker container: `docker exec -it <CONTAINER_NAME> /bin/bash`
 - Run a PostgreSQL DB as a Docker container: `docker run --name local-db -p 5432:5432 -e POSTGRES_PASSWORD=revature -d postgres`
 - Connect directly to a containerized PostgreSQL DB using `psql`: `docker exec -it <CONTAINER_NAME> psql -U postgres -h localhost`
-
 
