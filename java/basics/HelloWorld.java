@@ -21,6 +21,13 @@ public class HelloWorld {
     */
     public static void main(String[] args) {
 
+        // Iterate and print the arguments provided when this app is ran
+        if (args.length != 0) {
+            for (int i = 0; i < args.length; i++) {
+                System.out.println("Argument #" + (i + 1) + ": " + args[i]);
+            }
+        }
+
         // Print text to the standard output (println creates a new line after the text is printed)
         System.out.println("Hello, Java!");
 
