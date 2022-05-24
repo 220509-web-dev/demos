@@ -1,8 +1,6 @@
 package com.revature;
 
-import java.sql.SQLOutput;
-
-public class Driver {
+public class StringDriver {
 
     static String s6 = "North";
 
