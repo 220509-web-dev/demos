@@ -41,6 +41,88 @@
 ![Collections API](https://www.codejava.net/images/articles/javacore/collections/collections%20framework%20overview.png)
 
 ## Essential interfaces and implementations
+- Incomplete but simplified Collections
+
+```mermaid
+    classDiagram
+
+    class Iterable{
+        <<interface>>
+    }
+
+    class Collection{
+        <<interface>>
+    }
+
+    class List{
+        <<interface>>
+    }
+
+    class Set{
+        <<interface>>
+    }
+
+    class Queue{
+        <<interface>>
+    }
+
+    class Deque{
+        <<interface>>
+    }
+
+    class Map{
+        <<interface>>
+    }
+
+    class HashSet{
+
+    }
+
+    class TreeSet{
+
+    }
+
+    class ArrayList{
+
+    }
+
+    class LinkedList{
+
+    }
+
+    class HashMap{
+
+    }
+
+    class TreeMap{
+
+    }
+    
+    class ArrayDeque{
+
+    }
+    
+
+    Iterable <|-- Collection
+    Collection <|-- List
+    Collection <|-- Set
+    Collection <|-- Queue
+    Queue <|-- Deque
+    Set <|-- HashSet
+    Set <|-- TreeSet
+    List <|-- ArrayList
+    List <|-- LinkedList
+    Deque <|-- LinkedList
+    Deque <|-- ArrayDeque
+    Map <|-- HashMap
+    Map <|-- TreeMap 
+
+
+    
+
+
+
+```
 
 - **Iterable**
   - Root interface of all collections in the collection framework
@@ -114,6 +196,17 @@
 
 ```mermaid
 
+    flowchart LR
+    e0
+    e1
+    e2
+    e3
+    e4
 
+        e1 <--> e2
+        e3 <--> e4
+        e2 <--> e3
+        e0 <--> e1
+        e4
 
 ```
