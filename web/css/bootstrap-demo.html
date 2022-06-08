@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bootstrap Example</title>
+
+    <!-- Bootstrap CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!-- Bootstrap JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <style>
+        .bordered {
+            border: 1px solid black;
+        }
+    </style>
+
+</head>
+<body>
+
+    <!--
+        What is Bootstrap?
+
+            Bootstrap is a free front-end framework for faster and easier web development. It includes HTML and 
+            CSS based design templates for typography, forms, buttons, tables, navigation, modals, image carousels,
+            and many other components/features. Additionally, it has optional JavaScript, Popper.js, and jQuery
+            libraries that can be leveraged to increase the dynamic behavior of our web pages.
+            
+            One of the main benefits of using Bootstrap is its ability to facilitate the creation of responsive
+            webpages. Responsiveness refers to the webpage's ability to maintain proper layout even when viewed
+            on various screen sizes and resolutions. This is accomplished by the application of the Bootstrap
+            Grid System (12 columns).
+
+        What is the BootstrapCDN?
+        
+            BootstrapCDN is a public content delivery network. Users of Bootstrap can load CSS and JavaScript 
+            libraries remotely from a global network of servers. This way users can fetch the data with low 
+            latency, regardless of their geographic location.
+
+        Reference: https://getbootstrap.com/docs/5.0/getting-started/introduction/
+    -->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <!-- The grid is fractal in nature, so you can nest rows and cols within other rows/cols -->
+                <div class="row">
+                    <div class="col bordered">
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                    <div class="col bordered">
+                        <p>Fugit excepturi quasi dolor iste.</p>
+                    </div>
+                    <div class="col bordered">
+                        <p>Excepturi voluptates dicta optio exercitationem.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col bordered">
+                Lorem ipsum dolor sit amet.
+            </div>
+            <div class="col bordered">
+                Lorem ipsum dolor sit.
+            </div>
+            <div class="col bordered">
+                Lorem ipsum dolor sit amet consectetur.
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
