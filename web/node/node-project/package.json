@@ -1,0 +1,20 @@
+{
+  "name": "my-first-node-project",
+  "version": "1.0.0",
+  "description": "My first NodeJS project",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc index.ts && node index.js"
+  },
+  "keywords": [
+    "new",
+    "javascript",
+    "node",
+    "example"
+  ],
+  "author": "Wezley Singleton",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.7.3"
+  }
+}
