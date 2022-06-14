@@ -1,0 +1,93 @@
+# HTML
+- What is HTML
+    -   Hypertext Markup Language
+    -   HTML does not perform any logic for you
+    -   You can not create web pages without using HTML
+- What makes an HTML page an HTML page?
+    - Elements
+        - Elements are created via "tags" in your html page
+        - Some tags include an opening and closing tag, others just a single tag 
+                - common tags
+                    - **div:** defines a “division” of your page
+                    - **p:** defines a paragraph
+                    - **span:** inline tag for grouping texts or elements
+                    - **b:** bold text
+                    - **i:** italicized text
+                    - **h1, h2, ... h6:** headings
+                    - **br:** line break
+                    - **table:** defines a table
+                    - **th:** table header(think column name)
+                    - **tr:** table row (holds a row of data)
+                    - **td:** table data (individual elements of a row)
+                    - **img src="URL":** adds an image to your page
+                    - **ol:** an ordered list (number bullets)
+                        - **li:** list item
+                    - **ul:** an unordered list (bullets)
+                        - **li:** list item
+                        - **a href="URL"**: makes a hyperlink
+    - Attributes
+        - Affect your elememnts
+        - Attributes work very well with your styling
+        - They follow a key:value pairing system
+        - common attributes
+            - **id:** a unique identifier for an element
+            - **class:** a title given for a unique set of styling options
+            - **src:** used with the img tag, you provide the link to your image with this attribute
+            - **href:** used with the anchor tag, you provide a link to a new file or web page with this attribute
+
+# The Box Model
+- ALL Elements are inside their own box (unless you make it otherwise)
+- ALL boxes have 4 parts to them
+    - the content (innermost layer)
+    - the padding
+    - the border
+    - the margin (outtermost layer)
+- these for layers can all be affected by CSS styling
+
+# CSS
+- What is CSS?
+    - Cascading Style Sheet
+    - This provides information for your browser to understand how it should parse your elements
+- What ways can you apply CSS styling?
+    - Inline CSS
+        - provided within the Element tag itself
+    - Internal/Embedded CSS
+        - provided within style tags within the header tags
+        - it does the exact same thing for you that using inline CSS provides, but it applies your styling to all elements within a container, or all elements within a tag
+    - External CSS
+        - This provides the same functionality as internal and inline CSS, but the styling is provided from another source
+- CSS has varying levels of priority
+    - Inline CSS
+    - ID selector
+    - Class attribute and Psuedo-class attribute
+    - Element and Pseudo-element selectors
+- Common CSS Styling Options
+    - **text-align** (aligns your text)
+    - **color** (changes the color)
+    - **position** (changes the position of the element)
+    - **display** (changes elements to behave as inline or block elements)
+        - inline elements go next to eachother
+        - block elements go on top of eachother
+    - **padding** (adjusts the padding of an element)
+    - **border** (adjusts the border of an element)
+        - border-style
+            - none
+            - hidden
+            - dashed
+            - solid
+            - etc.
+- Groupping CSS styling
+    - Group selector
+        - You can group tags together to give them the same styling options (p,h1{styling})
+    - Child selector
+        - child tags of the main container are given the styling options (div > p {styling})
+    - sibling selectors
+        - General sibiling
+            - target elements that are after the selected element (div ~ p {styling})
+                - this does not apply to any target elements that come before the selected element
+                    - you can think of these "siblings" as the younger siblings specifically
+        - Adjacent sibling
+            - targets the element that is closest to the selected element (div + p {styling})
+- Pseudo class and Pseudo element
+    - Pseudo class styling options allow you to select the "state" of an element, not the element itself (p:hoover{styling})
+    - Pseudo element allows for styling options that relate more to those things which are not tags (p::before {styling} and p::after {styling})
