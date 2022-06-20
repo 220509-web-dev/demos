@@ -27,6 +27,8 @@
         <property name="email" value="${coach-email}"/>
     </bean>
 
+    <bean id="objectMapper" class="com.fasterxml.jackson.databind.ObjectMapper"/>
+
     <!-- Used to link the application.properties file to this configuration -->
     <context:property-placeholder location="application.properties"/>
 
