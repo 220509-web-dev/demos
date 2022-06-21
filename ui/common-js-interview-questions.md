@@ -40,7 +40,7 @@
 
   * Is it a best practice to use global variables? Why or why not?
 
-* What are some methods on the function prototype?
+* What is the purpose of the prototype property on all JavaScript objects?
 
 * If you declare a variable `var` inside a for loop is that block scoped or function scoped?
 
